@@ -1,11 +1,12 @@
 #summary One-sentence summary of this page.
 #labels Featured,Phase-Deploy,Phase-Design
 
-= Introduction =
+= Introduccion =
 
 Formail generico en php que atrapa todos los post. Muy facil de integrar, ideal para diseñadores ya que no se necesita conocimiento de programacion.
 
-= Details =
+= Detalle =
+
 *Forma de uso*
 
 El siguiente formulario se puede utilizar de 2 formas:
