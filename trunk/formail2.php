@@ -1,6 +1,4 @@
 <?php
-
-
 if (count($_POST)!=0)
 {
 	//==========Inicio de Config==========
