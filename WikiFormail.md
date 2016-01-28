@@ -1,0 +1,44 @@
+# Introduccion #
+
+Formail generico en php que atrapa todos los post. Muy facil de integrar, ideal para diseñadores ya que no se necesita conocimiento de programacion.
+
+# Detalle #
+
+**Forma de uso**
+
+El siguiente formulario se puede utilizar de 2 formas:
+
+
+
+1- Mensaje incluido en la misma pagina PHP
+
+> La forma de uso es haciendo una inclusión del archivo PHP ej.: <?php include "formail.php"; ?> en donde se quiere visualizar el mensaje de "El formulario de envio con exito".
+
+2- Redireccionar a una pagina de agradecimiento.
+
+> La forma de utilizar este método, es asignando el valor formail.php a la etiqueta action del formulario por ej.:
+
+> 
+
+&lt;form name="Miform" action="formail.php" method="post"&gt;
+
+
+
+Ejemplo de configuración:
+
+> //==========Inicio de Config==========
+
+> $Para = "mail@uosolutions.com";
+> $Titulo = "Formulario Web --Mi Empresa--";
+> $Copia = "";
+> $CopiaOculta = "mail@uosolutions.com";
+
+> // URL a donde va a redireccionar despues del envio
+> $Direccion = "gracias.html";
+
+> // Mensaje de "El formulario se envio con exito" en caso de no usar URL
+> $Mensaje = "El formulario se envio con exito";
+
+> //==========Fin de Config==========
+
+**IMPORTANTE:** Cuando en los formularios se utilizan botones con imágenes, sacarles los parámetros name="" id=""
